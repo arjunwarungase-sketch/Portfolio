@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64">
+
+    <defs>
+
+        <linearGradient id="bg"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%">
+
+            <stop offset="0%" stop-color="#2563EB"/>
+            <stop offset="100%" stop-color="#1D4ED8"/>
+
+        </linearGradient>
+
+        <filter id="shadow">
+
+            <feDropShadow
+                dx="0"
+                dy="2"
+                stdDeviation="3"
+                flood-color="#000000"
+                flood-opacity="0.35"/>
+
+        </filter>
+
+    </defs>
+
+    <!-- Rounded Square -->
+
+    <rect
+        x="2"
+        y="2"
+        width="60"
+        height="60"
+        rx="16"
+        fill="#0F172A"/>
+
+    <!-- Blue Ring -->
+
+    <rect
+        x="4"
+        y="4"
+        width="56"
+        height="56"
+        rx="14"
+        fill="none"
+        stroke="url(#bg)"
+        stroke-width="2"/>
+
+    <!-- AW -->
+
+    <text
+        x="50%"
+        y="53%"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Inter, Poppins, Arial, sans-serif"
+        font-size="24"
+        font-weight="700"
+        fill="white"
+        filter="url(#shadow)">
+
+        AW
+
+    </text>
+
+</svg>
